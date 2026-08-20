@@ -128,7 +128,7 @@ const API_BASE = (() => {
     return `http://${hostname === '127.0.0.1' ? 'localhost' : hostname}:3000`;
   }
 
-  return 'https://icaih-2026-production.up.railway.app';
+  return '';
 })();
 
 /* ── Inline form messages ── */
@@ -360,21 +360,21 @@ const SPONSOR_ICONS = {
 };
 
 const ALL_SPONSOR_PACKAGES = [
-  { category: 'Premium Sponsorship Benefits', title: 'Title Sponsor', amount: 2999999, accent: '#0b8f8c', icon: SPONSOR_ICONS.title, benefits: ['Exclusive Title Branding Rights','Premium Brand Visibility Across All Platforms','High-Impact Speaking Opportunity','Premium Exhibition & Showcase Space','VIP Access & Strategic Networking','Strong Media, PR & Recognition Value'] },
-  { category: 'Premium Sponsorship Benefits', title: 'Co-Title Sponsor', amount: 1999999, accent: '#b88700', icon: SPONSOR_ICONS.partnership, benefits: ['Prominent Co-Branding with ICAIH 2026','Speaking Opportunity in a Key Session','Premium Exhibition Stall','High-Visibility Logo Placement','Delegate Passes and VIP Networking Access'] },
-  { category: 'Premium Sponsorship Benefits', title: 'Healthcare Innovation Sponsor', amount: 999999, accent: '#0b8f8c', icon: SPONSOR_ICONS.innovation, benefits: ['Official Healthcare Innovation Sponsor Recognition','Dedicated Innovation Showcase Opportunity','Product, Service, or Clinical Solution Demonstration','Panel Participation with Industry Leaders','Premium Branding Across Conference Platforms','Strategic B2B Networking Access'] },
-  { category: 'Strategic Sponsorship Benefits', title: 'Platinum Sponsor', amount: 499999, accent: '#6b7280', icon: SPONSOR_ICONS.premium, benefits: ['Prominent Brand Visibility','Dedicated Exhibition Booth','Stage Recognition During the Event','Strategic Networking Access','Session-Level Visibility','Product Demonstration Opportunity'] },
-  { category: 'Strategic Sponsorship Benefits', title: 'AI Transformation Sponsor', amount: 499999, accent: '#b88700', icon: SPONSOR_ICONS.ai, benefits: ['Official AI Transformation Sponsor Recognition','AI-Focused Brand Visibility','AI Healthcare Session Visibility','AI Solution Demonstration Opportunity','Strategic Access to Healthcare Decision Makers'] },
-  { category: 'Strategic Sponsorship Benefits', title: 'Gold Sponsor', amount: 299999, accent: '#234b9b', icon: SPONSOR_ICONS.award, benefits: ['Official Gold Sponsor Recognition','Logo Placement on Selected Conference Materials','Exhibition Stall for Brand Promotion','Website and Digital Visibility','Delegate Participation and Networking','Promotional Material Distribution Opportunity'] },
-  { category: 'Partner Benefits', title: 'Delegate Kit Sponsor', amount: 299999, accent: '#0b8f8c', icon: SPONSOR_ICONS.kit, benefits: ['Exclusive Delegate Kit Branding','Direct Brand Reach to Every Delegate','Promotional Inserts Inside Kits','High Visibility at Registration Area','Website and Brochure Recognition','Long-Lasting Brand Recall'] },
-  { category: 'Partner Benefits', title: 'Knowledge Partner', amount: 199999, accent: '#b88700', icon: SPONSOR_ICONS.knowledge, benefits: ['Official Knowledge Partner Recognition','Academic Branding Across Conference Platforms','Research Visibility Among Academic Audiences','Association with Knowledge Sessions','Expert Contribution or Session Moderation Opportunity','Website and Brochure Logo Visibility'] },
-  { category: 'Partner Benefits', title: 'Technology Partner', amount: 199999, accent: '#6b7280', icon: SPONSOR_ICONS.technology, benefits: ['Official Technology Partner Recognition','Technology Showcase Opportunity','Product Demo and Solution Presentation','Brand Visibility Across Conference Platforms','Networking with Healthcare and Innovation Leaders','B2B Partnership and Collaboration Access'] },
-  { category: 'Associate & Brand Visibility Benefits', title: 'Healthcare Partner', amount: 199999, accent: '#0b8f8c', icon: SPONSOR_ICONS.healthcare, benefits: ['Official Healthcare Partner Recognition','Healthcare Sector Brand Visibility','Clinical Innovation Showcase Opportunity','Exhibition Visibility for Healthcare Services','Networking with Healthcare Leaders','Website and Brochure Branding'] },
-  { category: 'Associate & Brand Visibility Benefits', title: 'Silver Sponsor', amount: 99999, accent: '#b88700', icon: SPONSOR_ICONS.silver, benefits: ['Official Silver Sponsor Recognition','Logo Visibility in Selected Materials','Website and Brochure Branding','Event Recognition During the Conference','Delegate Entry for Sponsor Representatives'] },
-  { category: 'Associate & Brand Visibility Benefits', title: 'Associate Sponsor', amount: 99999, accent: '#234b9b', icon: SPONSOR_ICONS.associate, benefits: ['Official Associate Sponsor Recognition','Website Visibility in Sponsor Section','Branding in Selected Event Materials','Promotional Mention During Conference Communication','Affordable Brand Exposure to Healthcare and AI Audience'] },
-  { title: 'Premium Exhibitor', amount: 39999, accent: '#8a6a00', icon: SPONSOR_ICONS.premium, benefits: ['Exhibition Booth (3m × 3m)','Spacious stall for product and service showcase','Display banners, brochures, standees, and live demos','Direct interaction with healthcare professionals and delegates','Brand visibility on ICAIH 2026 website','Company profile included in the official exhibitor directory','Two complimentary delegate passes'] },
-  { title: 'Standard Exhibitor', amount: 34999, accent: '#12315f', icon: SPONSOR_ICONS.associate, benefits: ['Exhibition Booth (2m × 2m)','Dedicated stall space for showcasing products and services','Opportunity to engage directly with participants','Company information included in the exhibitor booklet','One free delegate pass for company representative','Brand exposure among healthcare professionals, students, and researchers'] },
-  { title: 'Standard Pavilion', amount: 29999, accent: '#087447', icon: SPONSOR_ICONS.innovation, benefits: ['Startup showcase space','Dedicated table space in the Startup Pavilion','Present innovative healthcare and AI solutions','Startup profile included in the official conference directory','Meet potential investors and funding partners','Interact with AI experts, researchers, and industry leaders','Opportunity to demonstrate ideas and gain valuable feedback','Build collaborations for future growth'] }
+  { category: 'Premium Sponsorship Benefits', title: 'Title Sponsor', amount: 0, accent: '#0b8f8c', icon: SPONSOR_ICONS.title, benefits: ['Exclusive Title Branding Rights','Premium Brand Visibility Across All Platforms','High-Impact Speaking Opportunity','Premium Exhibition & Showcase Space','VIP Access & Strategic Networking','Strong Media, PR & Recognition Value'] },
+  { category: 'Premium Sponsorship Benefits', title: 'Co-Title Sponsor', amount: 0, accent: '#b88700', icon: SPONSOR_ICONS.partnership, benefits: ['Prominent Co-Branding with ICAIH 2026','Speaking Opportunity in a Key Session','Premium Exhibition Stall','High-Visibility Logo Placement','Delegate Passes and VIP Networking Access'] },
+  { category: 'Premium Sponsorship Benefits', title: 'Healthcare Innovation Sponsor', amount: 0, accent: '#0b8f8c', icon: SPONSOR_ICONS.innovation, benefits: ['Official Healthcare Innovation Sponsor Recognition','Dedicated Innovation Showcase Opportunity','Product, Service, or Clinical Solution Demonstration','Panel Participation with Industry Leaders','Premium Branding Across Conference Platforms','Strategic B2B Networking Access'] },
+  { category: 'Strategic Sponsorship Benefits', title: 'Platinum Sponsor', amount: 0, accent: '#6b7280', icon: SPONSOR_ICONS.premium, benefits: ['Prominent Brand Visibility','Dedicated Exhibition Booth','Stage Recognition During the Event','Strategic Networking Access','Session-Level Visibility','Product Demonstration Opportunity'] },
+  { category: 'Strategic Sponsorship Benefits', title: 'AI Transformation Sponsor', amount: 0, accent: '#b88700', icon: SPONSOR_ICONS.ai, benefits: ['Official AI Transformation Sponsor Recognition','AI-Focused Brand Visibility','AI Healthcare Session Visibility','AI Solution Demonstration Opportunity','Strategic Access to Healthcare Decision Makers'] },
+  { category: 'Strategic Sponsorship Benefits', title: 'Gold Sponsor', amount: 0, accent: '#234b9b', icon: SPONSOR_ICONS.award, benefits: ['Official Gold Sponsor Recognition','Logo Placement on Selected Conference Materials','Exhibition Stall for Brand Promotion','Website and Digital Visibility','Delegate Participation and Networking','Promotional Material Distribution Opportunity'] },
+  { category: 'Partner Benefits', title: 'Delegate Kit Sponsor', amount: 0, accent: '#0b8f8c', icon: SPONSOR_ICONS.kit, benefits: ['Exclusive Delegate Kit Branding','Direct Brand Reach to Every Delegate','Promotional Inserts Inside Kits','High Visibility at Registration Area','Website and Brochure Recognition','Long-Lasting Brand Recall'] },
+  { category: 'Partner Benefits', title: 'Knowledge Partner', amount: 0, accent: '#b88700', icon: SPONSOR_ICONS.knowledge, benefits: ['Official Knowledge Partner Recognition','Academic Branding Across Conference Platforms','Research Visibility Among Academic Audiences','Association with Knowledge Sessions','Expert Contribution or Session Moderation Opportunity','Website and Brochure Logo Visibility'] },
+  { category: 'Partner Benefits', title: 'Technology Partner', amount: 0, accent: '#6b7280', icon: SPONSOR_ICONS.technology, benefits: ['Official Technology Partner Recognition','Technology Showcase Opportunity','Product Demo and Solution Presentation','Brand Visibility Across Conference Platforms','Networking with Healthcare and Innovation Leaders','B2B Partnership and Collaboration Access'] },
+  { category: 'Associate & Brand Visibility Benefits', title: 'Healthcare Partner', amount: 0, accent: '#0b8f8c', icon: SPONSOR_ICONS.healthcare, benefits: ['Official Healthcare Partner Recognition','Healthcare Sector Brand Visibility','Clinical Innovation Showcase Opportunity','Exhibition Visibility for Healthcare Services','Networking with Healthcare Leaders','Website and Brochure Branding'] },
+  { category: 'Associate & Brand Visibility Benefits', title: 'Silver Sponsor', amount: 0, accent: '#b88700', icon: SPONSOR_ICONS.silver, benefits: ['Official Silver Sponsor Recognition','Logo Visibility in Selected Materials','Website and Brochure Branding','Event Recognition During the Conference','Delegate Entry for Sponsor Representatives'] },
+  { category: 'Associate & Brand Visibility Benefits', title: 'Associate Sponsor', amount: 0, accent: '#234b9b', icon: SPONSOR_ICONS.associate, benefits: ['Official Associate Sponsor Recognition','Website Visibility in Sponsor Section','Branding in Selected Event Materials','Promotional Mention During Conference Communication','Affordable Brand Exposure to Healthcare and AI Audience'] },
+  { title: 'Premium Exhibitor', amount: 0, accent: '#8a6a00', icon: SPONSOR_ICONS.premium, benefits: ['Exhibition Booth (3m × 3m)','Spacious stall for product and service showcase','Display banners, brochures, standees, and live demos','Direct interaction with healthcare professionals and delegates','Brand visibility on ICAIH 2026 website','Company profile included in the official exhibitor directory','Two complimentary delegate passes'] },
+  { title: 'Standard Exhibitor', amount: 0, accent: '#12315f', icon: SPONSOR_ICONS.associate, benefits: ['Exhibition Booth (2m × 2m)','Dedicated stall space for showcasing products and services','Opportunity to engage directly with participants','Company information included in the exhibitor booklet','One free delegate pass for company representative','Brand exposure among healthcare professionals, students, and researchers'] },
+  { title: 'Standard Pavilion', amount: 0, accent: '#087447', icon: SPONSOR_ICONS.innovation, benefits: ['Startup showcase space','Dedicated table space in the Startup Pavilion','Present innovative healthcare and AI solutions','Startup profile included in the official conference directory','Meet potential investors and funding partners','Interact with AI experts, researchers, and industry leaders','Opportunity to demonstrate ideas and gain valuable feedback','Build collaborations for future growth'] }
 ];
 
 const STALL_TIER_NAMES = ['Premium Exhibitor', 'Standard Exhibitor', 'Standard Pavilion'];
@@ -395,7 +395,7 @@ function renderSponsorPackages() {
     <article class="feature-panel reveal sponsor-package-card" style="--sponsor-accent:${pkg.accent};">
       <div class="sponsor-card-head">
         <span class="sponsor-card-icon" aria-hidden="true" title="${pkg.title}">${pkg.icon}</span>
-        <div><h3>${pkg.title}</h3><p class="sponsor-card-amount">${formatINR(pkg.amount)}</p></div>
+        <div><h3>${pkg.title}</h3><p class="sponsor-card-amount">${formatSponsorFee(pkg.amount)}</p></div>
       </div>
       <ul class="sponsor-benefit-list">${pkg.benefits.map(benefit => `<li>${benefit}</li>`).join('')}</ul>
       <button class="btn secondary sponsor-card-action" type="button" data-sponsor-tier="${pkg.title}">Choose Package</button>
@@ -422,7 +422,7 @@ function populateSponsorTierOptions(mode = sponsorFormMode, selectedTier = '') {
   const packages = getSponsorModePackages(mode);
 
   select.innerHTML = packages
-    .map(pkg => `<option value="${pkg.title}">${pkg.title} – ${formatINR(pkg.amount)}</option>`)
+    .map(pkg => `<option value="${pkg.title}">${pkg.title} – ${formatSponsorFee(pkg.amount)}</option>`)
     .join('');
 
   if (selectedTier && packages.some(pkg => pkg.title === selectedTier)) {
@@ -440,7 +440,7 @@ function renderStallPackages() {
     <article class="feature-panel reveal sponsor-package-card stall-package-card" style="--sponsor-accent:${pkg.accent};">
       <div class="sponsor-card-head">
         <span class="sponsor-card-icon" aria-hidden="true" title="${pkg.title}">${pkg.icon}</span>
-        <div><h3>${pkg.title}</h3><p class="sponsor-card-amount">${formatINR(pkg.amount)}</p></div>
+        <div><h3>${pkg.title}</h3><p class="sponsor-card-amount">${formatSponsorFee(pkg.amount)}</p></div>
       </div>
       <ul class="sponsor-benefit-list">${pkg.benefits.map(benefit => `<li>${benefit}</li>`).join('')}</ul>
       <button class="btn secondary sponsor-card-action" type="button" data-stall-tier="${pkg.title}">Book This Stall</button>
@@ -460,6 +460,10 @@ document.getElementById('openStallModal')?.addEventListener('click', () => openS
 
 function formatINR(amount) {
   return '₹' + Number(amount || 0).toLocaleString('en-IN');
+}
+
+function formatSponsorFee(amount) {
+  return Number(amount || 0) > 0 ? formatINR(amount) : 'Fees To Be Announced';
 }
 
 function getRegistrationPaymentDetails() {
@@ -1098,7 +1102,7 @@ function getSponsorPaymentDetails() {
     feeAmount,
     requiresPayment: feeAmount > 0,
     note: sponsorTier
-      ? `${sponsorTier} ${sponsorFormMode === 'stall' ? 'stall booking fee' : 'sponsorship fee'}`
+      ? `${sponsorTier} ${sponsorFormMode === 'stall' ? 'stall booking fee' : 'sponsorship fee'} — to be announced. Submit your inquiry and our team will confirm the amount and payment steps.`
       : sponsorFormMode === 'stall' ? 'Select a stall / exhibitor tier to view the fee.' : 'Select a sponsorship tier to view the fee.'
   };
 }
@@ -1173,7 +1177,7 @@ function updateSponsorPaymentUI({ keepPayment = false } = {}) {
   if (feeAmount) feeAmount.value = details.feeAmount;
 
   if (selectedFeeText) {
-    selectedFeeText.textContent = details.requiresPayment ? formatINR(details.feeAmount) : 'Select Tier';
+    selectedFeeText.textContent = details.sponsorTier ? formatSponsorFee(details.feeAmount) : 'Select Tier';
   }
 
   if (selectedFeeNote) {
@@ -1187,7 +1191,9 @@ function updateSponsorPaymentUI({ keepPayment = false } = {}) {
   if (paymentQrText) {
     paymentQrText.textContent = details.requiresPayment
       ? `Pay ${formatINR(details.feeAmount)} through the secure UPI/Razorpay payment page.`
-      : 'Select a sponsorship or stall tier to generate the secure payment page and QR code.';
+      : details.sponsorTier
+        ? `Fees for ${details.sponsorTier} are being finalised. No payment is needed right now — submit your inquiry below and our team will share the payment link once the fee is confirmed.`
+        : 'Select a sponsorship or stall tier to view fee details.';
   }
 
   if (paymentQrImage && details.requiresPayment) {
@@ -1382,11 +1388,11 @@ document.getElementById('submissionSuccessModal')?.addEventListener('click', eve
 
 function openCompetitionClosedModal() {
   openSubmissionSuccessModal({
-    tag: 'Competition submissions are closed.',
-    title: 'Competition submissions are closed.',
+    tag: 'Submissions are closed.',
+    title: 'Submissions are closed.',
     body: `
-      <p>Competition submissions are closed.</p>
-      <p>The deadline for Pre-Conference Competitions, Research Paper Submission, and International Awards Nomination has been completed on 16 July 2026.</p>
+      <p>Submissions are closed.</p>
+      <p>The deadline for Pre-Conference Competitions, Research Paper Submission, and International Awards Nomination for ICAIH 2027 was 12 October 2026.</p>
       <p>Thank you for your interest and support.</p>
     `,
     details: [],
@@ -1569,8 +1575,7 @@ document.getElementById('sponsorForm')?.addEventListener('submit', async e => {
 
   const formData = new FormData(form);
   formData.set('feeAmount', String(details.feeAmount));
-  formData.set('paymentStatus', 'pending-verification');
-  
+  formData.set('paymentStatus', details.requiresPayment ? 'pending-verification' : 'not-required');
 
   const submitButton = form.querySelector('button[type="submit"]');
   const originalSubmitText = submitButton ? submitButton.textContent : '';
@@ -1604,7 +1609,7 @@ document.getElementById('sponsorForm')?.addEventListener('submit', async e => {
 
     showMessage(
       'sponsorMessage',
-      result.message || 'Inquiry submitted successfully. Payment is pending verification.',
+      result.message || (details.requiresPayment ? 'Inquiry submitted successfully. Payment is pending verification.' : 'Inquiry submitted successfully. Our team will contact you once the fee is confirmed.'),
       'ok'
     );
 
@@ -1672,9 +1677,9 @@ const APPLICATION_CATEGORY_OPTIONS = {
 };
 
 const APPLICATION_LABELS = {
-  'pre-conference-competition': 'Pre-Conference Competitions Application Form (Submission Deadline: July 8, 2026)',
-  'research-paper': 'Research Paper Submission Form (Submission Deadline: July 8, 2026)',
-  'award-nomination': 'ICAIH 2026 International Awards Nomination Form'
+  'pre-conference-competition': 'Pre-Conference Competitions Application Form (Submission Deadline: 12 October 2026)',
+  'research-paper': 'Research Paper Submission Form — Free Submission (Deadline: 12 October 2026)',
+  'award-nomination': 'ICAIH 2027 International Awards Nomination Form'
 };
 
 const APPLICATION_FIELD_CLASS = {
@@ -1984,6 +1989,11 @@ function openCompetitionFromButton() {
 document.getElementById('openCompetitionModalNav')?.addEventListener('click', openCompetitionFromButton);
 document.getElementById('openCompetitionModalHero')?.addEventListener('click', openCompetitionFromButton);
 document.getElementById('openCompetitionModalFooter')?.addEventListener('click', openApplicationModal);
+document.getElementById('openResearchAwardsCompetitionBtn')?.addEventListener('click', () => {
+  openApplicationModal();
+  setApplicationType('research-paper');
+  showApplicationFormPage('research-paper');
+});
 document.getElementById('closeApplicationModal')?.addEventListener('click', closeApplicationModal);
 
 document.getElementById('applicationModal')?.addEventListener('click', e => {
@@ -2232,22 +2242,148 @@ setApplicationType('pre-conference-competition');
 syncPreConferenceSubmissionTitle();
 updateApplicationFileMailLinks();
 
+const APPLICATION_SUBMISSION_DEADLINE = new Date('2026-10-12T23:59:59+05:30');
+
 document.getElementById('applicationForm')?.addEventListener('submit', async e => {
   e.preventDefault();
+
+  const form = e.currentTarget;
+
+  if (Date.now() > APPLICATION_SUBMISSION_DEADLINE.getTime()) {
+    openCompetitionClosedModal();
+    return;
+  }
+
+  if (!validateActiveApplicationRequiredFields(form)) return;
+  if (!validatePhoneFields(form, 'applicationMessage')) return;
+  if (!validateApplicationFiles(form)) return;
 
   const submitButton = document.getElementById('applicationSubmitBtn');
   const originalSubmitText = submitButton ? submitButton.textContent : '';
 
   if (submitButton) {
     submitButton.disabled = true;
-    submitButton.textContent = 'Submission Closed';
+    submitButton.textContent = 'Submitting...';
   }
 
-  openCompetitionClosedModal();
+  updateApplicationFileMailLinks();
+  showMessage('applicationMessage', 'Submitting application…', '');
 
-  if (submitButton) {
-    submitButton.disabled = false;
-    submitButton.textContent = originalSubmitText || 'Submit Application';
+  try {
+    syncPreConferenceSubmissionTitle();
+    const formData = new FormData(form);
+    const normalizedApplicationMobile = String(
+      formData.get('mobile') || formData.get('phone') || formData.get('phoneNumber') || formData.get('mobileNumber') || ''
+    ).replace(/\D/g, '');
+    formData.set('mobile', normalizedApplicationMobile);
+    formData.set('phone', normalizedApplicationMobile);
+    const applicationType = getSafeApplicationType(formData.get('applicationType'));
+
+    const declarationNamesByType = {
+      'pre-conference-competition': ['declarationConfirmed', 'competitionDeclarationRules', 'competitionDeclarationPresent', 'competitionDeclarationTrue'],
+      'research-paper': ['declarationConfirmed', 'researchDeclarationPresent', 'researchDeclarationRules', 'researchDeclarationTrue'],
+      'award-nomination': ['declarationConfirmed']
+    };
+    const activeDeclarationNames = declarationNamesByType[applicationType] || [];
+    const allActiveDeclarationsChecked = activeDeclarationNames.length > 0 && activeDeclarationNames.every(name =>
+      Array.from(form.querySelectorAll(`input[name="${name}"]`))
+        .some(field => !field.disabled && field.checked)
+    );
+
+    activeDeclarationNames.forEach(name => {
+      formData.delete(name);
+      const checkedField = Array.from(form.querySelectorAll(`input[name="${name}"]`))
+        .find(field => !field.disabled && field.checked);
+      formData.set(name, checkedField ? 'true' : 'false');
+    });
+
+    if (applicationType === 'pre-conference-competition') {
+      formData.set('competitionDeclarationsConfirmed', allActiveDeclarationsChecked ? 'true' : 'false');
+    } else if (applicationType === 'research-paper') {
+      formData.set('researchDeclarationsConfirmed', allActiveDeclarationsChecked ? 'true' : 'false');
+    }
+
+    if (applicationType === 'award-nomination') {
+      const awardCategory = formData.get('awardCategory') || 'ICAIH 2027 International Awards Nomination';
+      formData.set('competitionCategory', awardCategory);
+      formData.set('participantCategory', 'Awards Nominee');
+      formData.set('topicTheme', awardCategory);
+    }
+
+    const response = await fetch(`${API_BASE}/api/applications`, {
+      method: 'POST',
+      body: formData
+    });
+
+    const result = await response.json().catch(() => ({}));
+
+    if (!response.ok) {
+      throw new Error(result.message || 'Application submission failed. Please check the backend terminal error, MySQL connection, and file format.');
+    }
+
+    const submittedType = getSafeApplicationType(formData.get('applicationType'));
+    const submittedData = Object.fromEntries(formData.entries());
+    const submittedRefId = result.refId || result.id || `ICAIH-${Date.now().toString(36).toUpperCase()}`;
+    const submittedLabel = APPLICATION_LABELS[submittedType] || 'Application';
+    const successConfigByType = {
+      'pre-conference-competition': {
+        tag: 'Competition Form Submitted',
+        title: 'Competition Application Received!',
+        body: 'Thank you for applying for the <strong>ICAIH 2027 Pre-Conference Competition</strong>. Your form has been submitted successfully.',
+        categoryLabel: 'Competition Category',
+        categoryValue: submittedData.competitionCategory || submittedData.submissionTitle,
+        note: 'Your competition application has been saved. The competition coordinator will review the submission and contact you if further information is required.'
+      },
+      'research-paper': {
+        tag: 'Research Paper Submitted',
+        title: 'Research Paper Submission Received!',
+        body: 'Thank you for submitting your research paper to <strong>ICAIH 2027</strong> — free of cost. Your form and uploaded files have been received successfully.',
+        categoryLabel: 'Presentation Type',
+        categoryValue: submittedData.presentationType || submittedData.topicTheme || submittedData.submissionTitle,
+        note: 'Your research paper submission has been saved. The review committee will evaluate it and communicate the next steps by email. Top-ranked papers receive cash awards up to ₹3,00,000 plus a compulsory certificate.'
+      },
+      'award-nomination': {
+        tag: 'Award Nomination Submitted',
+        title: 'Award Nomination Received!',
+        body: 'Thank you for submitting an <strong>ICAIH 2027 International Award Nomination</strong>. The nomination has been received successfully.',
+        categoryLabel: 'Award Category',
+        categoryValue: submittedData.awardCategory || submittedData.competitionCategory || submittedData.submissionTitle,
+        note: 'The award nomination has been saved. The ICAIH 2027 awards committee will review the details and contact the nominee or applicant if required.'
+      }
+    };
+    const successConfig = successConfigByType[submittedType];
+
+    showMessage(
+      'applicationMessage',
+      `${result.message || 'Form submitted successfully. Confirmation emails have been sent to the applicant and admin at info@mrtech.co.in.'} Registration ID: ${submittedRefId}`,
+      'ok'
+    );
+
+    resetApplicationFormState(form, submittedType);
+    closeApplicationModal();
+    await waitForSuccessPopup();
+
+    openSubmissionSuccessModal({
+      tag: successConfig.tag,
+      title: successConfig.title,
+      body: successConfig.body,
+      details: [
+        { label: 'Applicant Name', value: submittedData.fullName || submittedData.nomineeName },
+        { label: 'Email', value: submittedData.email },
+        { label: 'Form Type', value: submittedLabel },
+        { label: successConfig.categoryLabel, value: successConfig.categoryValue },
+        { label: 'Registration ID', value: submittedRefId },
+        { label: 'Submission Status', value: 'Received Successfully' }
+      ],
+      note: successConfig.note
+    });
+  } catch (error) {
+    showMessage('applicationMessage', error.message || 'Unable to submit. Please start the backend with npm start and check the terminal error.', 'error');
+  } finally {
+    if (submitButton) {
+      submitButton.disabled = false;
+      submitButton.textContent = originalSubmitText || 'Submit Application';
+    }
   }
 });
 
@@ -2503,3 +2639,320 @@ const ICAIH_CONFERENCE_GALLERY = [{"src":"assets/gallery-curated-2026-v4/gallery
     if (event.key === 'ArrowRight') showImage(activeIndex + 1);
   });
 })();;
+
+
+/* ══════════════════════════════════════════════════════════════════
+   ICAIH 2026 RESEARCH BOOK — realistic, centered, spine-anchored
+   3D page-turn flipbook, shown inline on the page (left column).
+   Pages lift off the center spine and sweep toward the left (forward)
+   or right (backward), just like a real book, auto-advances every
+   5 seconds, with a synthesized page-turn sound (Web Audio API — no
+   external audio file needed). A "View Fullscreen" button expands
+   the same book using the Fullscreen API.
+   ══════════════════════════════════════════════════════════════════ */
+(function () {
+  const wrap = document.getElementById('flipInlineWrap');
+  if (!wrap) return;
+
+  const fullscreenBtn = document.getElementById('flipFullscreenBtn');
+  const rotateHint = document.getElementById('flipRotateHint');
+
+  const staticLeft = document.getElementById('flipStaticLeft');
+  const staticRight = document.getElementById('flipStaticRight');
+  const flying = document.getElementById('flipFlying');
+  const faceFront = document.getElementById('flipFaceFront');
+  const faceBack = document.getElementById('flipFaceBack');
+
+  const prevBtn = document.getElementById('flipPrevBtn');
+  const nextBtn = document.getElementById('flipNextBtn');
+  const autoToggleBtn = document.getElementById('flipAutoToggle');
+  const progressEl = document.getElementById('flipProgressText');
+
+  /* ── Build the book pages from the real ICAIH 2026 conference gallery ── */
+  const galleryImages = (typeof ICAIH_CONFERENCE_GALLERY !== 'undefined' && ICAIH_CONFERENCE_GALLERY.length)
+    ? ICAIH_CONFERENCE_GALLERY
+    : [];
+
+  const pages = [
+    { title: 'ICAIH 2026', body: 'International Conference on Artificial Intelligence in Healthcare — Research Proceedings. 18 July 2026, Anna Centenary Library, Chennai.' },
+    { title: 'Foreword', body: 'A curated record of ICAIH 2026 — sessions, speakers, competitions and highlights, presented ahead of ICAIH 2027 at Chennai Trade Centre on 27–28 January 2027.' }
+  ];
+  galleryImages.slice(0, 20).forEach(img => {
+    pages.push({ title: 'ICAIH 2026 Highlights', body: img.caption || img.alt || 'Moment from ICAIH 2026.', img: img.src });
+  });
+  pages.push({ title: 'Looking Ahead — ICAIH 2027', body: 'Research paper submission for ICAIH 2027 is free of cost, closing 12 October 2026. Top research papers receive cash awards of ₹3,00,000 / ₹2,00,000 / ₹1,00,000 plus a compulsory certificate for every participant.' });
+  pages.push({ title: 'Acknowledgements', body: 'With thanks to all authors, reviewers, chief guests, speakers and delegates of ICAIH 2026. — Myth Reality Technologies Pvt. Ltd.' });
+  if (pages.length % 2 !== 0) pages.push({ title: 'ICAIH 2027', body: 'See you at Chennai Trade Centre — 27 & 28 January 2027.' });
+
+  const FLIP_MS = 950;
+  const AUTO_MS = 5000;
+
+  let leftIndex = 0;      // index of the page currently shown on the LEFT
+  let isFlipping = false;
+  let autoTimer = null;
+  let autoRunning = true;
+  let audioCtx = null;
+
+  /* ── Synthesized page-turn "swoosh" (no external audio file) ── */
+  function playPageTurnSound() {
+    try {
+      audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)();
+      const now = audioCtx.currentTime;
+
+      // Two short, layered noise "rustles" (slightly offset + differently
+      // filtered) read together more like a real page turning than one
+      // single burst does.
+      const rustles = [
+        { start: 0,     duration: 0.28, gain: 0.6,  fStart: 2600, fEnd: 500 },
+        { start: 0.09,  duration: 0.22, gain: 0.32, fStart: 3400, fEnd: 900 }
+      ];
+
+      rustles.forEach(r => {
+        const sampleRate = audioCtx.sampleRate;
+        const bufferSize = Math.floor(sampleRate * r.duration);
+        const buffer = audioCtx.createBuffer(1, bufferSize, sampleRate);
+        const data = buffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) {
+          const t = i / bufferSize;
+          const envelope = Math.sin(Math.PI * t) * (1 - t * 0.3);
+          data[i] = (Math.random() * 2 - 1) * envelope * 0.55;
+        }
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = buffer;
+        const filter = audioCtx.createBiquadFilter();
+        filter.type = 'bandpass';
+        filter.frequency.setValueAtTime(r.fStart, now + r.start);
+        filter.frequency.exponentialRampToValueAtTime(r.fEnd, now + r.start + r.duration);
+        const gain = audioCtx.createGain();
+        gain.gain.setValueAtTime(r.gain, now + r.start);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + r.start + r.duration);
+        noise.connect(filter);
+        filter.connect(gain);
+        gain.connect(audioCtx.destination);
+        noise.start(now + r.start);
+        noise.stop(now + r.start + r.duration);
+      });
+    } catch (err) { /* audio unavailable — book still works silently */ }
+  }
+
+  /* Browsers block audio until a user gesture occurs on the page. Since the
+     book now auto-plays inline (not behind a click-to-open button), prime/
+     resume the AudioContext on the first tap/click/key anywhere so the
+     page-turn sound is ready as soon as possible. */
+  function unlockAudio() {
+    try {
+      audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+    } catch (err) { /* ignore */ }
+    ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(evt => document.removeEventListener(evt, unlockAudio));
+  }
+  ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(evt => document.addEventListener(evt, unlockAudio, { once: true, passive: true }));
+
+  function fillFace(el, page) {
+    el.innerHTML = '';
+    if (!page) return;
+    const h = document.createElement('h3');
+    h.textContent = page.title;
+    el.appendChild(h);
+    if (page.img) {
+      const wrap = document.createElement('div');
+      wrap.className = 'flip-face-img';
+      const imgEl = document.createElement('img');
+      imgEl.src = page.img;
+      imgEl.alt = page.body;
+      imgEl.loading = 'lazy';
+      wrap.appendChild(imgEl);
+      el.appendChild(wrap);
+    }
+    const p = document.createElement('p');
+    p.textContent = page.body;
+    el.appendChild(p);
+  }
+
+  function addPageNum(el, index) {
+    const num = document.createElement('span');
+    num.className = 'flip-pagenum';
+    num.textContent = `Page ${index + 1} of ${pages.length}`;
+    el.appendChild(num);
+  }
+
+  function updateProgress() {
+    if (!progressEl) return;
+    const right = Math.min(leftIndex + 2, pages.length);
+    progressEl.textContent = `Pages ${leftIndex + 1}–${right} of ${pages.length}`;
+    if (prevBtn) prevBtn.disabled = isFlipping || leftIndex <= 0;
+    if (nextBtn) nextBtn.disabled = isFlipping || leftIndex + 2 >= pages.length;
+  }
+
+  /* Renders the two static (non-animating) pages and idles the flying
+     leaf, hidden, ready over the right page. */
+  function renderIdle() {
+    fillFace(staticLeft, pages[leftIndex]);
+    addPageNum(staticLeft, leftIndex);
+    fillFace(staticRight, pages[leftIndex + 2]);
+    if (pages[leftIndex + 2]) addPageNum(staticRight, leftIndex + 2);
+
+    flying.style.transition = 'none';
+    flying.classList.remove('flip-pos-left', 'flip-turning');
+    flying.classList.add('flip-pos-right');
+    flying.style.transform = 'rotateY(0deg)';
+    fillFace(faceFront, pages[leftIndex + 1]);
+    if (pages[leftIndex + 1]) addPageNum(faceFront, leftIndex + 1);
+    fillFace(faceBack, pages[leftIndex]);
+    // restore transition on next frame
+    requestAnimationFrame(() => { flying.style.transition = ''; });
+    updateProgress();
+  }
+
+  /* Forward: right leaf lifts from the spine and sweeps LEFT. */
+  function flipNext() {
+    if (isFlipping || leftIndex + 2 >= pages.length) return;
+    isFlipping = true;
+    updateProgress();
+    playPageTurnSound();
+
+    flying.classList.remove('flip-pos-left');
+    flying.classList.add('flip-pos-right', 'flip-turning');
+    fillFace(faceBack, pages[leftIndex + 1]);
+    requestAnimationFrame(() => { flying.style.transform = 'rotateY(-180deg)'; });
+
+    setTimeout(() => {
+      leftIndex += 1;
+      renderIdle();
+      isFlipping = false;
+      updateProgress();
+    }, FLIP_MS);
+  }
+
+  /* Backward: left leaf lifts from the spine and sweeps RIGHT. */
+  function flipPrev() {
+    if (isFlipping || leftIndex <= 0) return;
+    isFlipping = true;
+    updateProgress();
+    playPageTurnSound();
+
+    flying.style.transition = 'none';
+    flying.classList.remove('flip-pos-right');
+    flying.classList.add('flip-pos-left');
+    flying.style.transform = 'rotateY(0deg)';
+    fillFace(faceFront, pages[leftIndex]);
+    fillFace(faceBack, pages[leftIndex - 1]);
+    fillFace(staticLeft, pages[leftIndex - 2]);
+    if (pages[leftIndex - 2]) addPageNum(staticLeft, leftIndex - 2); else staticLeft.innerHTML = '';
+    fillFace(staticRight, pages[leftIndex + 1]);
+    if (pages[leftIndex + 1]) addPageNum(staticRight, leftIndex + 1);
+
+    requestAnimationFrame(() => {
+      flying.style.transition = '';
+      requestAnimationFrame(() => {
+        flying.classList.add('flip-turning');
+        flying.style.transform = 'rotateY(180deg)';
+      });
+    });
+
+    setTimeout(() => {
+      leftIndex -= 1;
+      renderIdle();
+      isFlipping = false;
+      updateProgress();
+    }, FLIP_MS);
+  }
+
+  /* ── Auto-flip every 5 seconds, looping back to the start with a real
+     turning animation (and sound) instead of an abrupt jump ── */
+  function flipToStart() {
+    if (isFlipping) return;
+    isFlipping = true;
+    playPageTurnSound();
+
+    flying.classList.remove('flip-pos-left');
+    flying.classList.add('flip-pos-right', 'flip-turning');
+    fillFace(faceFront, pages[leftIndex + 1]);
+    fillFace(faceBack, pages[0]);
+    requestAnimationFrame(() => { flying.style.transform = 'rotateY(-180deg)'; });
+
+    setTimeout(() => {
+      leftIndex = 0;
+      renderIdle();
+      isFlipping = false;
+      updateProgress();
+    }, FLIP_MS);
+  }
+
+  function stopAutoFlip() {
+    if (autoTimer) { clearInterval(autoTimer); autoTimer = null; }
+  }
+  function startAutoFlip() {
+    stopAutoFlip();
+    autoTimer = setInterval(() => {
+      if (isFlipping) return;
+      if (leftIndex + 2 >= pages.length) {
+        flipToStart();
+      } else {
+        flipNext();
+      }
+    }, AUTO_MS);
+  }
+  function setAutoRunning(running) {
+    autoRunning = running;
+    if (autoToggleBtn) {
+      autoToggleBtn.textContent = running ? '⏸ Pause Auto-Flip' : '▶ Resume Auto-Flip';
+      autoToggleBtn.setAttribute('aria-pressed', String(running));
+    }
+    if (running) startAutoFlip(); else stopAutoFlip();
+  }
+
+  function checkOrientation() {
+    if (!rotateHint) return;
+    const inFullscreen = !!(document.fullscreenElement || document.webkitFullscreenElement);
+    const isNarrow = window.matchMedia('(max-width: 760px)').matches;
+    const isPortrait = window.matchMedia('(orientation: portrait)').matches;
+    rotateHint.style.display = (inFullscreen && isNarrow && isPortrait) ? 'flex' : 'none';
+  }
+
+  function setFullscreenBtnLabel(isFullscreen) {
+    if (!fullscreenBtn) return;
+    fullscreenBtn.innerHTML = isFullscreen
+      ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22" aria-hidden="true"><path d="M9 3H5a2 2 0 0 0-2 2v4M15 3h4a2 2 0 0 1 2 2v4M9 21H5a2 2 0 0 1-2-2v-4M15 21h4a2 2 0 0 0 2-2v-4"/></svg>Exit Fullscreen'
+      : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22" aria-hidden="true"><path d="M2 6c3-2 6-2 9 0v13c-3-2-6-2-9 0V6z"/><path d="M22 6c-3-2-6-2-9 0v13c3-2 6-2 9 0V6z"/></svg>View Fullscreen';
+  }
+
+  function toggleFullscreen() {
+    const isFullscreen = !!(document.fullscreenElement || document.webkitFullscreenElement);
+    if (!isFullscreen) {
+      const req = wrap.requestFullscreen || wrap.webkitRequestFullscreen;
+      if (req) req.call(wrap).catch(() => {});
+    } else {
+      const exit = document.exitFullscreen || document.webkitExitFullscreen;
+      if (exit) exit.call(document).catch(() => {});
+    }
+  }
+
+  fullscreenBtn?.addEventListener('click', () => { unlockAudio(); toggleFullscreen(); });
+  document.addEventListener('fullscreenchange', () => {
+    setFullscreenBtnLabel(!!document.fullscreenElement);
+    checkOrientation();
+  });
+  document.addEventListener('webkitfullscreenchange', () => {
+    setFullscreenBtnLabel(!!document.webkitFullscreenElement);
+    checkOrientation();
+  });
+
+  document.addEventListener('keydown', event => {
+    if (event.key === 'ArrowRight') { setAutoRunning(false); flipNext(); }
+    if (event.key === 'ArrowLeft') { setAutoRunning(false); flipPrev(); }
+  });
+
+  nextBtn?.addEventListener('click', () => { setAutoRunning(false); flipNext(); });
+  prevBtn?.addEventListener('click', () => { setAutoRunning(false); flipPrev(); });
+  autoToggleBtn?.addEventListener('click', () => setAutoRunning(!autoRunning));
+
+  window.addEventListener('resize', checkOrientation);
+  window.addEventListener('orientationchange', checkOrientation);
+
+  /* The book is visible on page load — render the first spread and start
+     auto-flipping straight away, no click required. */
+  leftIndex = 0;
+  renderIdle();
+  setAutoRunning(true);
+})();
