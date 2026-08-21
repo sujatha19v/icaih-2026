@@ -128,7 +128,7 @@ const API_BASE = (() => {
     return `http://${hostname === '127.0.0.1' ? 'localhost' : hostname}:3000`;
   }
 
-  return '';
+  return 'https://icaih-2026-production.up.railway.app';
 })();
 
 /* ── Inline form messages ── */
