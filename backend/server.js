@@ -30,10 +30,11 @@ app.get('/api/health', (req, res) => {
 });
 
 // Optional static frontend serving when backend is used directly
-app.use(express.static(path.join(__dirname, '..', 'frontend')));
-app.get('*', (req, res, next) => {
-  if (req.path.startsWith('/api')) return next();
-  return res.sendFile(path.join(__dirname, '..', 'frontend', 'index.html'));
+app.get('/', (req, res) => {
+    res.status(200).json({
+        ok: true,
+        message: 'ICAIH 2026 backend is running.'
+    });
 });
 
 app.use((err, req, res, next) => {
